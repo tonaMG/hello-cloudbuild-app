@@ -61,7 +61,7 @@ steps:
   args:
   - clone
   - --recurse-submodules
-  - git@github.com:${GITHUB-USERNAME}/hello-cloudbuild-env.git
+  - git@github.com:tonaMG/hello-cloudbuild-env.git
   volumes:
   - name: ssh
     path: /root/.ssh
